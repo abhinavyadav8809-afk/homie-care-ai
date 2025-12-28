@@ -2,7 +2,7 @@ async function askAI() {
   const userText = document.getElementById("input").value;
 
   const response = await fetch(
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY",
+    "AIzaSyCM4vWW5lRpdFl1b73fIZapW_TVEOc7mbU",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
